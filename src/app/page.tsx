@@ -1,7 +1,11 @@
+import { HeroSection } from "./components/HeroSection";
+import { TrainingSection } from "./components/TrainingSection";
+
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-        Main Page
-    </h1>
+    <div className="w-full flex flex-col justify-center items-center">
+        <HeroSection />
+        <TrainingSection />
+    </div>
   )
 }

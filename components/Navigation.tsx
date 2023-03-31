@@ -31,15 +31,20 @@ export const Navigation = () => {
                 height={24}
                 priority
             />
-            <ul className='flex gap-4 justify-end'>
-                {links.map((link, i) =>
-                    <li key={`${link.href}_${i}`} className={`hover:text-sky-500 ${segment === link.href ? 'font-bold' : ''}`}>
-                        <Link href={link.href}>
-                            {link.label}
-                        </Link>
-                    </li>
-                )}
-            </ul>
+            <div className='flex gap-4'>
+                <ul className='flex gap-4 justify-end'>
+                    {links.map((link, i) =>
+                        <li key={`${link.href}_${i}`} className={`hover:text-sky-500 ${segment === link.href ? 'font-bold' : ''}`}>
+                            <Link href={link.href}>
+                                {link.label}
+                            </Link>
+                        </li>
+                    )}
+                </ul>
+                <div className='border-l-2 border-black pl-2'>
+                    <p>+48 123 456 789</p>
+                </div>
+            </div>
         </nav>
     )
 };
