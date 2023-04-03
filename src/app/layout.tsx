@@ -14,13 +14,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-        <div className='flex flex-col w-screen h-screen bg-gray-100'>
-          <Navigation />
-          <div className='flex-grow flex justify-center w-full'>
-            {children}
-          </div>
-          <Footer />
+      <div className='flex flex-col w-screen h-screen bg-secondary'>
+        <Navigation />
+        <div className='flex-grow flex justify-center w-full'>
+          {children}
         </div>
-        </html>
+        <Footer />
+      </div>
+    </html>
   )
 }

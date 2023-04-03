@@ -23,7 +23,7 @@ export const Navigation = () => {
     const segment = useSelectedLayoutSegment()
 
     return (
-        <nav className='border-b-2 border-gray-200 p-2 flex justify-between px-20'>
+        <nav className='bg-secondary p-2 flex justify-between px-20'>
             <Image
                 src="/vercel.svg"
                 alt="Beautiq Studio Logo"
