@@ -1,5 +1,6 @@
 import { HeroSection } from "./components/HeroSection";
 import { Reviews } from "./components/Reviews";
+import { Salon } from "./components/Salon";
 import { TrainingSection } from "./components/TrainingSection";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <TrainingSection />
       <Reviews />
+      <Salon />
     </div>
   )
 }

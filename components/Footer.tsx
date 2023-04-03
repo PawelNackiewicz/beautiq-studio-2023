@@ -18,6 +18,7 @@ export const Footer = () => {
                 <div>
                     <p>Szkolenie z przedłużania rzęs</p>
                     <p>Szkolenie ze stylizacji brwi</p>
+                    <p>Szkolenie z laminacji rzęs</p>
                 </div>
                 <div>
                     <p>O mnie</p>
