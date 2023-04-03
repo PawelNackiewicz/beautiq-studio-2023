@@ -29,10 +29,12 @@ const data = [
 
 export const Reviews = () => {
     return (
-        <div className="w-full bg-secondary flex flex-col justify-center items-center py-20">
-            <h2 className="font-bold text-4xl mb-20">Opinie klientów</h2>
-            <div className="flex gap-14">
-                {data.map(e => <Review key={e.id} name={e.name} text={e.text} img={e.img} />)}
+        <div className="w-full bg-secondary flex justify-center">
+            <div className="w-full flex flex-col justify-center items-center py-20 max-w-6xl">
+                <h2 className="font-bold text-4xl mb-20">Opinie klientów</h2>
+                <div className="flex gap-14">
+                    {data.map(e => <Review key={e.id} name={e.name} text={e.text} img={e.img} />)}
+                </div>
             </div>
         </div>
     )

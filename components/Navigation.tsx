@@ -23,7 +23,7 @@ export const Navigation = () => {
     const segment = useSelectedLayoutSegment()
 
     return (
-        <nav className='bg-secondary p-2 flex justify-between px-20'>
+        <nav className='bg-secondary p-2 flex justify-between px-20 text-xl mb-6'>
             <Image
                 src="/vercel.svg"
                 alt="Beautiq Studio Logo"
@@ -34,7 +34,7 @@ export const Navigation = () => {
             <div className='flex gap-4'>
                 <ul className='flex gap-4 justify-end'>
                     {links.map((link, i) =>
-                        <li key={`${link.href}_${i}`} className={`hover:text-sky-500 ${segment === link.href ? 'font-bold' : ''}`}>
+                        <li key={`${link.href}_${i}`} className={`hover:text-primary ${segment === link.href ? 'font-bold' : ''}`}>
                             <Link href={link.href}>
                                 {link.label}
                             </Link>
