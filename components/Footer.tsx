@@ -1,6 +1,6 @@
 export const Footer = () => {
     return (
-        <div className='border-t-2 border-gray-200 w-full px-20 p-2'>
+        <div className='bg-secondary w-full px-20 p-2'>
             <div className="flex justify-between">
                 <div>
                     <p className="mb-2 font-bold">Beautiq Studio</p>
