@@ -1,9 +1,6 @@
 'use client';
-
+import { ActionButton } from "@/components";
 import Image from "next/image"
-import { NextSeo } from 'next-seo';
-import { ActionButton } from "../../../components/ActionButton";
-
 
 export default function Page() {
   return (

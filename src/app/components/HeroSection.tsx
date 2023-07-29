@@ -1,7 +1,6 @@
 'use client';
 import Image from "next/image";
-import { ActionButton } from "../../../components/ActionButton";
-import { ImageWrapper } from "../../../components/ImageWrapper";
+import { ActionButton, ImageWrapper } from "@/components";
 
 export const HeroSection = () => {
     return (

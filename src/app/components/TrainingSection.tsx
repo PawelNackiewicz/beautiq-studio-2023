@@ -1,7 +1,5 @@
 'use client';
-
-import { ActionButton } from "../../../components/ActionButton";
-import { ImageWrapper } from "../../../components/ImageWrapper";
+import { ActionButton, ImageWrapper } from "@/components";
 
 export const TrainingSection = () => {
     return (

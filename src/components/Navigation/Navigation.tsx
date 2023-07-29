@@ -25,7 +25,7 @@ export const Navigation = () => {
     return (
         <nav className='bg-secondary p-2 flex justify-between px-20 text-xl mb-6'>
             <Image
-                src="/vercel.svg"
+                src="/logo.svg"
                 alt="Beautiq Studio Logo"
                 width={100}
                 height={24}

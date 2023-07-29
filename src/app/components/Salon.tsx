@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ImageWrapper } from "../../../components/ImageWrapper";
+import { ImageWrapper } from "@/components";
 
 export const Salon = () => {
     return (
